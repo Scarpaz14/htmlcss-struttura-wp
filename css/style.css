@@ -11,5 +11,11 @@
 
 .head{
     background-color: #e579e6;
-    height:80px;   
+    height:80px; 
+    margin-bottom: 20px;  
+}
+
+.first-part{
+    background-color:#e1d67a ;
+    min-height: 350px;
 }
