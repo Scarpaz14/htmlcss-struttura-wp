@@ -17,5 +17,40 @@
 
 .first-part{
     background-color:#e1d67a ;
-    min-height: 350px;
+    min-height: 300px;
+    margin-bottom: 20px;
 }
+
+.second-part{
+    background-color:#0186fd;
+    min-height:450px;
+}
+.row-high{
+    background-color:#abcfe7;
+    min-height:50px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.col-left, .col-right{
+    float: left;
+    background-color: #abcfe7;
+    min-height:350px;
+    width:15%;
+    margin-top:25px;
+}
+
+.col-center{
+    float: left;
+    background-color: #abcfe7;
+    min-height:350px;
+    margin: auto 20px;
+    width: calc(70% - 40px);
+    margin-top:25px;
+}
+
+
+
