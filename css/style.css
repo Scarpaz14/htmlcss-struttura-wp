@@ -24,6 +24,7 @@
 .second-part{
     background-color:#0186fd;
     min-height:450px;
+    margin-bottom: 10px;
 }
 .row-high{
     background-color:#abcfe7;
@@ -52,5 +53,10 @@
     margin-top:25px;
 }
 
+.row-bottom{
+    background-color:#8801fe;
+    min-height:40px;
+    
+}
 
 
