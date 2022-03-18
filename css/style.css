@@ -36,12 +36,15 @@ header{
     display: table;
     clear:both;
 }
+.col{
+    padding:25px 0;
+}
 .col-left, .col-right{
     float: left;
     background-color: #abcfe7;
     min-height:350px;
     width:15%;
-    margin-top:25px;
+    
 }
 
 .col-center{
@@ -50,7 +53,7 @@ header{
     min-height:350px;
     margin: auto 20px;
     width: calc(70% - 40px);
-    margin-top:25px;
+    
 }
 
 .row-bottom{
