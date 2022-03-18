@@ -11,7 +11,7 @@
 
 .head{
     background-color: #e579e6;
-    height:80px; 
+    min-height:80px; 
     margin-bottom: 20px;  
 }
 
